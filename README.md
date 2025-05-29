@@ -1,5 +1,4 @@
 # Project Delivery - Task Manager
-###### Alejandro Flores Martínez, A01708363
 
 ### Context
 It is well known that it's important to have some organization in college as to keep track of our missing assignments and other miscellaneous tasks that we need to finish. To achieve this, everyone has a different method: some use agendas, some use digital tools, some even use their own memory. These tools help with the purpose of keeping track of tasks and to-do's, as well as organize one's own time to approach whichever task is the most urgent; basically, a task manager helps users keep track of these responsibilities in an organized way. This project simulates a basic task management system, which will focus on classifying and handling different types of tasks.
