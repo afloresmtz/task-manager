@@ -16,10 +16,8 @@ public:
     std::string getName();
     void setName(std::string newName);
     std::string getSchedule();
-    void setSchedule(string newSchedule);
+    void setSchedule(std::string newSchedule);
     std::string getTeacher();
-    void setTeacher(string newTeacher);
+    void setTeacher(std::string newTeacher);
 
 };
-
-#endif
