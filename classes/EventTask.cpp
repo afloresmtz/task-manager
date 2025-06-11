@@ -14,19 +14,12 @@ EventTask::EventTask(std::string description, Date* dueDate, Subject* subject)
 }
 
 std::string EventTask::showDetail() {
-    std::string mainString;
-    if(getStartDate() == getEndDate()) {
-        mainString = "Task: " + getDescription() +
-        "\nEvent Date: " + getDueDate().printDate() +
-        "\nSubject: " + getSubject().getName();
-    }
-    else {
-        mainString = "Task: " + getDescription() +
-        "\nStart Date: " + getStartDate().printDate() +
-        "\nEnd Date: " + getDueDate().printDate() +
-        "\nSubject: " + getSubject().getName();
-    }
-    return mainString;
+    std::string mainString = "Task: " + getDescription() +
+    "\nStart Date: " + getStartDate().printDate() +
+    "\nEnd Date: " + getDueDate().printDate() +
+    "\nSubject: " + getSubject().getName();
+
+    return(mainString);
 }
 
 Date EventTask::getStartDate() {
