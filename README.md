@@ -11,8 +11,9 @@ It is very important to have these kinds of tools as a way to organize one's own
     - NormalTask: represents a standard task with progress and due date. Has two private attribues, those being progress and urgency. It also has the overridden method of showDetail() first defined as virtual in Task.
     - EventTask: represents a one-time event like an appointment or an exam. Has an optional attribute of a startDate, for events that last more than one day. It also has the overriden method showDetail().
     - RoutineTask: represents a task that repeats in a cycle. It has the repetition type (daily, weekly, etc.) and the amount of repetitions as its attributes
-- Date: support class for Task. Holds two arrays of date and time as attributes, as well as methods to access each. It also has a way to display the date in DD/MM/YYY - HH : MM : SS format for easy reading.
+- Date: support class for Task. Holds two arrays of date and time as attributes, as well as methods to access each. It also has a way to display the date in DD/MM/YYYY - HH : MM : SS format for easy reading.
 - Subject: support class for Task. Holds three string attributes pertaining the subject info: name, schedule and teacher. It has methods to access each of these, as well as a way to print these attributes in a more accesible way.
-- TaskList: a class to have easy access to a Task* vector. It has the vector as its only attribute, but has methods to facilitate working with the vector, such as adding or removing tasks. 
+- TaskList: a class to have easy access to a Task* vector. It has the vector as its only attribute, but has methods to facilitate working with the vector, such as adding or removing tasks.
+
 
 ![Integrative Project Delivery - UML Class Diagram](https://github.com/user-attachments/assets/6d9569a2-1157-4f6c-ac1a-c04553cbe342)
