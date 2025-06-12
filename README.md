@@ -15,5 +15,5 @@ It is very important to have these kinds of tools as a way to organize one's own
 - Subject: support class for Task. Holds three string attributes pertaining the subject info: name, schedule and teacher. It has methods to access each of these, as well as a way to print these attributes in a more accesible way.
 - TaskList: a class to have easy access to a Task* vector. It has the vector as its only attribute, but has methods to facilitate working with the vector, such as adding or removing tasks.
 
+![Final Class Diagram](https://github.com/user-attachments/assets/6f6b3d64-88fe-4831-b3ee-190fa3306ba1)
 
-![Integrative Project Delivery - UML Class Diagram](https://github.com/user-attachments/assets/6d9569a2-1157-4f6c-ac1a-c04553cbe342)
